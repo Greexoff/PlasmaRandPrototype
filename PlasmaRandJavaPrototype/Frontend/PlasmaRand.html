@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="plasmaStylesheet.css">
+    <title>PlasmaRand</title>
+</head>
+<body>
+<form method="post" id="mainForm">
+<label for="fileSelection">Select video to be processed</label>
+<input type="file" id="fileSelection" name="fileSelection">
+
+<label for="algorithmsSelection">Select hash algorithm</label>
+<select name="algorithmsSelection" id="algorithmsSelection">
+</select>
+
+<label for="generatorsSelection">Select number generator</label>
+<select name="generatorsSelection" id="generatorsSelection"></select>
+    <button type="submit" id="generateNumberBTN" disabled>Generate number</button>
+
+    <h3 id="generatedResult"></h3>
+    <script src="PlasmaRand.js"></script>
+</form>
+
+
+</body>
+</html>
