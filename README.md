@@ -45,9 +45,9 @@ The project is designed with focus on modullarity and clear separation of concer
 
 ## Visuals
 * **Web Interface:**
-![](Documentation/Images/Web.png)
+* ![](Documentation/Images/Web.png)
 * **Java Swing:**
-![](Documentation/Images/Swing.png)
+* ![](Documentation/Images/Swing.png)
   
 ---
 
